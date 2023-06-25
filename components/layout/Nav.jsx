@@ -1,18 +1,19 @@
 import Image from "next/image"
 import Link from "next/link"
 import SearchBar from "@/components/molecules/SearchBar"
-import { ShoppingBagIcon } from "@heroicons/react/24/outline"
 import { StopIcon } from "@heroicons/react/24/solid"
 import Cart from "@/components/layout/Cart"
+import MobileMenu from "@/components/molecules/MobileMenu"
 
 const Nav = () => (
-  <nav className="bg-black h-16 flex items-center justify-between px-6 border-b border-gray-800">
-    <header className="flex gap-7 items-center">
+  <nav className="flex h-16 items-center justify-between border-b border-gray-800 bg-black px-6">
+    <MobileMenu />
+    <header className="flex items-center gap-7">
       <Link href="/" className="flex items-center gap-1">
-        <StopIcon className="w-6 h-6 text-white" />
-        <p className="font-bold">KAIRO</p>
+        <StopIcon className="h-6 w-6 text-white" />
+        <p className="font-bold">kairo</p>
       </Link>
-      <div className="flex gap-3">
+      <div className="hidden gap-3 text-sm md:flex">
         <Link className="font-extrabold" href="/products">
           All
         </Link>

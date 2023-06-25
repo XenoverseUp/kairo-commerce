@@ -1,10 +1,219 @@
 [
   {
-    "name": "Beats Solo3 Wireless On-Ear Headphones",
-    "description": "The Beats Solo3 Wireless On-Ear Headphones are a premium set of headphones that feature Bluetooth connectivity, up to 40 hours of battery life, and on-ear controls for adjusting volume and switching tracks. They have a sleek, stylish design and come in a variety of colors. They also have a built-in microphone for taking calls and use the Apple W1 chip for easy and stable connectivity with Apple devices.",
-    "price": 199.95,
-    "seller": "Beats by Dr. Dre",
-    "stock": 500,
-    "category": "Headphones"
+    "name": "American Vintage II 1951 Telecaster",
+    "description": "The instruments in the American Vintage II series are direct descendants of the original Fenders: designed for players with a fine appreciation for vintage Fender tone and feel and built with unmatched quality, down to the last screw. These are Fender electrics in their purest form: Fender American Vintage II, the stuff of legends.",
+    "price": 2249.9,
+    "brand": "Fender",
+    "stocks": [
+      {
+        "color": "#f39f3e",
+        "name": "default",
+        "stock": 500
+      }
+    ],
+    "fingerboardMaterial": "Maple",
+    "category": "electric",
+    "cover_image": {
+      "public_id": "kairo/products/v1687677715",
+      "url": "https://res.cloudinary.com/do8gjgyyy/image/upload/v1687677715/0110312850_fen_ins_frt_1_rr_vxdlwq.jpg"
+    },
+    "images": [
+      {
+        "public_id": "kairo/products/v1687675524",
+        "url": "https://res.cloudinary.com/do8gjgyyy/image/upload/v1687675524/0110312850_fen_ins_frt_1_rr_qcwrlo.jpg"
+      },
+      {
+        "public_id": "kairo/products/v1687675526",
+        "url": "https://res.cloudinary.com/do8gjgyyy/image/upload/v1687675526/0110312850_fen_ins_bck_1_rl_xmx22q.jpg"
+      },
+      {
+        "public_id": "kairo/products/v1687675539",
+        "url": "https://res.cloudinary.com/do8gjgyyy/image/upload/v1687675539/vintage_vtawys.jpg"
+      },
+      {
+        "public_id": "kairo/products/v1687675527",
+        "url": "https://res.cloudinary.com/do8gjgyyy/image/upload/v1687675527/0110312850_fen_ins_hft_1_nr_ktjnmp.jpg"
+      }
+    ],
+    "features": [
+      "Ash Body",
+      "Gloss Nitrocellulose Lacquer Finish",
+      "Pure Vintage '51 Tele pickups",
+      "\"U\"-Shaped Neck Profile",
+      "Pure Vintage 3-Saddle Tele with Brass Barrel Saddles, Serialized",
+      "Pure Vintage Single-Line \"Fender Deluxe\" Tuners"
+    ]
+  },
+  {
+    "name": "American Professional II Jazzmaster",
+    "description": "The American Pro II Jazzmaster delivers instant familiarity and sonic versatility you’ll feel and hear right away, with broad ranging improvements that add up to nothing less than a new standard for professional instruments.",
+    "price": 1799.99,
+    "brand": "Fender",
+    "stocks": [
+      {
+        "color": "#c33800",
+        "name": "3-Color Sunburst",
+        "stock": 100
+      },
+      {
+        "color": "#3b3634",
+        "name": "Mercury",
+        "stock": 0
+      },
+      {
+        "color": "#152030",
+        "name": "Dark Night",
+        "stock": 100
+      },
+      {
+        "color": "#90b28d",
+        "name": "Mystic Surf Green",
+        "stock": 100
+      },
+      {
+        "color": "#4caccf",
+        "name": "Mystic Surf Green",
+        "stock": 100
+      }
+    ],
+    "fingerboardMaterial": "Rosewood",
+    "category": "electric",
+    "cover_image": {
+      "public_id": "kairo/products/v1687677763",
+      "url": "https://res.cloudinary.com/do8gjgyyy/image/upload/v1687677763/0113970700_fen_ins_frt_1_rr_nhpjf2.jpg"
+    },
+    "images": [
+      {
+        "public_id": "kairo/products/v1687677030",
+        "url": "https://res.cloudinary.com/do8gjgyyy/image/upload/v1687677030/0113970700_fen_ins_frt_1_rr_c3gu2s.jpg"
+      },
+      {
+        "public_id": "kairo/products/v1687677026",
+        "url": "https://res.cloudinary.com/do8gjgyyy/image/upload/v1687677026/0113970700_fen_ins_bck_1_rl_soixgj.jpg"
+      },
+      {
+        "public_id": "kairo/products/v1687677032",
+        "url": "https://res.cloudinary.com/do8gjgyyy/image/upload/v1687677032/0113970700_fen_ins_fbd_1_nr_i6qyax.jpg"
+      },
+      {
+        "public_id": "kairo/products/v1687677033",
+        "url": "https://res.cloudinary.com/do8gjgyyy/image/upload/v1687677033/0113970700_fen_ins_hft_1_nr_hb1bhp.jpg"
+      }
+    ],
+    "features": [
+      "Two V-Mod II single-coil Jazzmaster pickups",
+      "Panorama™ Jazzmaster tremolo with pop-in arm and bridge with brass Mustang saddles",
+      "Deep \"C\"-shaped neck profile",
+      "Bone nut; 22 narrow-tall frets for easier bending",
+      "Series Mode Rhythm Circuit",
+      "Includes Deluxe Molded hardshell case"
+    ]
+  },
+  {
+    "name": "Squier Sonic™ Stratocaster",
+    "description": "The Squier Sonic™ Stratocaster® is ready to launch any musical adventure into warp speed, offering iconic Fender® style and inspiring tone for players at any stage. This Strat® sports a slim and inviting “C”-shaped neck profile and a thin, lightweight body for optimal playing comfort while a trio of Squier® single-coil pickups chime with crystal clarity for a wide variety of versatile tones. Further details of this model include a tremolo bridge for expressive vibrato effects, sealed-gear tuning machines for smooth, accurate tuning and durable chrome-plated hardware that is sure to catch the spotlight.",
+    "price": 199.99,
+    "brand": "Squier",
+    "stocks": [
+      {
+        "color": "#7658a8",
+        "name": "Ultraviolet",
+        "stock": 0
+      },
+      {
+        "color": "#2d80c8",
+        "name": "California Blue",
+        "stock": 103
+      },
+      {
+        "color": "#be6400",
+        "name": "2-Color Sunburst",
+        "stock": 243
+      },
+      {
+        "color": "#1c2024",
+        "name": "Black",
+        "stock": 0
+      }
+    ],
+    "fingerboardMaterial": "Indian Laurel",
+    "category": "electric",
+    "cover_image": {
+      "public_id": "kairo/products/v1687677845",
+      "url": "https://res.cloudinary.com/do8gjgyyy/image/upload/v1687677845/0373150517_sqr_ins_frt_1_rr_l2ni42.jpg"
+    },
+    "images": [
+      {
+        "public_id": "kairo/products/v1687677030",
+        "url": "https://res.cloudinary.com/do8gjgyyy/image/upload/v1687677030/0113970700_fen_ins_frt_1_rr_c3gu2s.jpg"
+      },
+      {
+        "public_id": "kairo/products/v1687677026",
+        "url": "https://res.cloudinary.com/do8gjgyyy/image/upload/v1687677026/0113970700_fen_ins_bck_1_rl_soixgj.jpg"
+      },
+      {
+        "public_id": "kairo/products/v1687677032",
+        "url": "https://res.cloudinary.com/do8gjgyyy/image/upload/v1687677032/0113970700_fen_ins_fbd_1_nr_i6qyax.jpg"
+      },
+      {
+        "public_id": "kairo/products/v1687677033",
+        "url": "https://res.cloudinary.com/do8gjgyyy/image/upload/v1687677033/0113970700_fen_ins_hft_1_nr_hb1bhp.jpg"
+      }
+    ],
+    "features": [
+      "Ash Body",
+      "Gloss Nitrocellulose Lacquer Finish",
+      "Pure Vintage '51 Tele pickups",
+      "\"U\"-Shaped Neck Profile",
+      "Pure Vintage 3-Saddle Tele with Brass Barrel Saddles, Serialized",
+      "Pure Vintage Single-Line \"Fender Deluxe\" Tuners"
+    ]
+  },
+  {
+    "name": "Takamine P7JC",
+    "description": "Takamine's powerful P7JC jumbo cutaway model is a veritable cannon of a guitar, with a resonant solid spruce top with \"X\" top bracing and solid rosewood back and sides for great clarity and forceful projection, a convenient Venetian cutaway for easy access to the upper reaches of the fingerboard, and elegant maple body binding with dark wood purfling and abalone rosette.",
+    "price": 2333.0,
+    "brand": "Takamine",
+    "stocks": [
+      {
+        "color": "#e1d1a8",
+        "name": "default",
+        "stock": 500
+      }
+    ],
+    "fingerboardMaterial": "Ebony",
+    "category": "acoustic",
+    "cover_image": {
+      "public_id": "kairo/products/v1687677902",
+      "url": "https://res.cloudinary.com/do8gjgyyy/image/upload/v1687677902/Takamine-P7JC-Jumbo-Cutaway-Elek_6876_1_ak0uhz.webp"
+    },
+    "images": [
+      {
+        "public_id": "kairo/products/v1687677964",
+        "url": "https://res.cloudinary.com/do8gjgyyy/image/upload/v1687677964/Takamine-P7JC-Jumbo-Cutaway-Elek_6876_2_lffazn.webp"
+      },
+      {
+        "public_id": "kairo/products/v1687677965",
+        "url": "https://res.cloudinary.com/do8gjgyyy/image/upload/v1687677965/Takamine-P7JC-Jumbo-Cutaway-Elek_6876_5_j4pmue.webp"
+      },
+      {
+        "public_id": "kairo/products/v1687677966",
+        "url": "https://res.cloudinary.com/do8gjgyyy/image/upload/v1687677966/Takamine-P7JC-Jumbo-Cutaway-Elek_6876_3_jrme6r.webp"
+      }
+    ],
+    "features": [
+      "Pro series",
+      "Design: Jumbo with cutaway",
+      "Solid spruce top",
+      "Solid rosewood back and sides",
+      "Mahogany neck",
+      "Ebony fretboards",
+      "Abalone Snowflakes Inlays",
+      "21 Nickel frets",
+      "Bone nut",
+      "Nut width: 45 mm",
+      "Rosewood bridge",
+      "Gold machine heads"
+    ]
   }
 ]

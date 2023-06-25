@@ -16,7 +16,7 @@ export async function GET(request) {
 }
 
 /**
- *  Creates a single product out of request body.
+ *  Creates a single or multiple products out of the request body.
  * @param {Request} request
  */
 export async function POST(request) {

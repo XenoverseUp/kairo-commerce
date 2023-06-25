@@ -1,14 +1,15 @@
 import ListProducts from "@/components/products/ListProducts"
 
 const getProducts = async () => {
-  const res = await fetch(`${process.env.API_URL}/api/products`)
-  const data = await res.json()
+  const res = await fetch(`${process.env.API_URL}/api/products/`, {
+    method: "GET",
+  })
 
-  return data
+  return await res.json()
 }
 
 export default async function Home() {
   const productsData = await getProducts()
 
-  return <ListProducts data={productsData} />
+  return //<ListProducts data={productsData} />
 }

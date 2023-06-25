@@ -17,9 +17,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="w-screen">
       <body
-        className={`${roboto.className} w-screen  h-screen overflow-hidden`}
+        className={`${roboto.className} h-screen  w-screen overflow-x-hidden`}
       >
-        <div className="flex flex-col h-full justify-between">
+        <div className="flex min-h-screen flex-col justify-between">
           <Nav />
           <main className="flex-grow">{children}</main>
           <Footer />

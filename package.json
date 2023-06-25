@@ -13,19 +13,23 @@
     "@heroicons/react": "^2.0.18",
     "@radix-ui/react-accessible-icon": "^1.0.3",
     "@radix-ui/react-dialog": "^1.0.4",
+    "@radix-ui/react-scroll-area": "^1.0.4",
+    "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-visually-hidden": "^1.0.3",
-    "autoprefixer": "10.4.14",
     "mongoose": "^7.3.1",
     "next": "13.4.7",
-    "next-connect": "^1.0.0",
-    "postcss": "8.4.24",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-hotkeys-hook": "^4.4.0",
-    "tailwindcss": "3.3.2"
+    "react-hotkeys-hook": "^4.4.0"
   },
   "devDependencies": {
     "@types/react": "18.2.13",
+    "autoprefixer": "10.4.14",
+    "postcss": "8.4.24",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "tailwindcss": "3.3.2",
+    "tailwindcss-easing": "^0.2.1",
     "typescript": "5.1.3"
   }
 }

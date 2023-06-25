@@ -16,9 +16,9 @@ const SearchBar = () => {
   return (
     <form
       action=""
-      className="w-96 h-10 border border-gray-800 focus-within:border-gray-200 transition-colors rounded-full flex gap-2 items-center px-3"
+      className="hidden h-10 w-96 items-center gap-2 rounded-full border border-gray-800 px-3 transition-colors focus-within:border-gray-200 sm:flex"
     >
-      <MagnifyingGlassIcon className="w-5 h-5 text-white" />
+      <MagnifyingGlassIcon className="h-5 w-5 text-white" />
       <input
         ref={search}
         {...{ value }}
@@ -27,9 +27,9 @@ const SearchBar = () => {
         name="search"
         autoComplete="off"
         placeholder="Search for products."
-        className="border-none text-sm bg-transparent outline-none flex-grow"
+        className="flex-grow border-none bg-transparent text-sm outline-none"
       />
-      <key className=" border-gray-400 rounded-md border-b-gray-400 border-b-[2.5px] border bg-white text-gray-900 font-mono text-[10px] px-2 py-[3px]">
+      <key className=" rounded-md border border-b-[2.5px] border-gray-400 border-b-gray-400 bg-white px-2 py-[3px] font-mono text-[10px] text-gray-900">
         CTRL + K
       </key>
     </form>

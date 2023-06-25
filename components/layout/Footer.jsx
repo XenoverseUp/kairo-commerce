@@ -2,13 +2,13 @@ import { StopIcon } from "@heroicons/react/24/solid"
 import Image from "next/image"
 
 const Footer = () => (
-  <footer className="w-full h-60 border-t border-gray-800 px-6">
-    <main className="flex flex-col w-full h-full">
-      <div className="flex-grow w-full flex justify-between py-8 gap-12">
-        <aside className="flex gap-6 flex-grow items-start">
-          <section className="flex items-center flex-grow max-w-sm">
-            <StopIcon className="text-white w-6 h-6" />
-            <p className="font-bold">KAIRO</p>
+  <footer className="h-60 w-full border-t border-gray-800 px-6">
+    <main className="flex h-full w-full flex-col">
+      <div className="flex w-full flex-grow justify-between gap-12 py-8">
+        <aside className="flex flex-grow items-start gap-6">
+          <section className="flex max-w-sm flex-grow items-center">
+            <StopIcon className="h-6 w-6 text-white" />
+            <p className="font-bold">kairo</p>
           </section>
           <section className="flex gap-6 text-sm">
             <ul className="flex flex-col gap-3">
@@ -37,7 +37,7 @@ const Footer = () => (
         </aside>
         <div>A</div>
       </div>
-      <aside className="h-10 pb-1 w-full border-t-2 border-white flex flex-shrink-0 items-center justify-between">
+      <aside className="flex h-10 w-full flex-shrink-0 items-center justify-between border-t-2 border-white pb-1">
         <p className="text-xs">
           <b>{new Date().getFullYear()}</b> All rights reserved.
         </p>

@@ -13,6 +13,14 @@ const productSchema = new Schema({
     type: Number,
     required: [true, "Please enter product price."],
   },
+  cover_image: {
+    public_id: {
+      type: String,
+    },
+    url: {
+      type: String,
+    },
+  },
   images: [
     {
       public_id: {
@@ -30,6 +38,8 @@ const productSchema = new Schema({
       values: [
         "electric",
         "acoustic",
+        "vintage",
+        "bass",
         "12-strings",
         "accessories",
         "headphones",
@@ -39,12 +49,34 @@ const productSchema = new Schema({
   },
   brand: {
     type: String,
-    required: [true, "Please enter product seller."],
+    required: [true, "Please enter product brand."],
   },
-  stock: {
-    type: Number,
-    required: [true, "Please enter product stock."],
+  stocks: [
+    {
+      color: {
+        type: String,
+        required: true,
+      },
+      name: {
+        type: String,
+        required: true,
+      },
+      stock: {
+        type: Number,
+        required: true,
+      },
+    },
+  ],
+  fingerboardMaterial: {
+    type: String,
+    required: true,
   },
+  features: [
+    {
+      type: String,
+      required: true,
+    },
+  ],
   ratings: {
     type: Number,
     default: 0,

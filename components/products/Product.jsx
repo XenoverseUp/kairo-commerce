@@ -13,7 +13,7 @@
  */
 
 const Product = ({ data }) => {
-  return data.name
+  return <h1>A: {data.name}</h1>
 }
 
 export default Product
