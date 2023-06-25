@@ -16,6 +16,12 @@ import {
 } from "@radix-ui/react-dialog"
 import { Transition } from "@headlessui/react"
 import { StopIcon, XMarkIcon } from "@heroicons/react/24/solid"
+import SearchBar from "../molecules/SearchBar"
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden"
+import Link from "next/link"
+import { HorizontalSeparator } from "@/components/molecules/Separator"
+import MenuContent from "@/components/mobile-menu/MenuContent"
+import MenuFooter from "../mobile-menu/MenuFooter"
 
 const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -47,14 +53,14 @@ const MobileMenu = () => {
           </Transition.Child>
           <Transition.Child
             as={Fragment}
-            enter="ease-out duration-[350ms]"
+            enter="ease-out-quint duration-[350ms]"
             enterFrom="-translate-x-full"
             enterTo="translate-x-0"
             leave="ease-in duration-200"
             leaveFrom="translate-x-0"
             leaveTo="-translate-x-full"
           >
-            <Content className="fixed left-0 top-0 flex h-full w-full flex-col items-stretch border-r border-neutral-800 bg-neutral-950 p-6 xs:w-96 sm:hidden">
+            <Content className=" fixed left-0 top-0 flex h-full w-full flex-col items-stretch gap-4 rounded-r-2xl border-r border-neutral-800 bg-neutral-950 p-6 xs:w-96 sm:hidden">
               <div className="mb-3 flex w-full items-center justify-between">
                 <Title className="flex items-center gap-1">
                   <StopIcon className="h-6 w-6 text-white" />
@@ -68,10 +74,12 @@ const MobileMenu = () => {
                   </Close>
                 </AccessibleIcon>
               </div>
-              <Description>menu wtf??</Description>
-              <Close asChild>
-                <button>close</button>
-              </Close>
+              <VisuallyHidden asChild>
+                <Description>Mobile menu of Kairo Store.</Description>
+              </VisuallyHidden>
+              <SearchBar noShortcut />
+              <MenuContent />
+              <MenuFooter />
             </Content>
           </Transition.Child>
         </Transition.Root>

@@ -49,14 +49,14 @@ const Cart = () => {
           </Transition.Child>
           <Transition.Child
             as={Fragment}
-            enter="ease-out-expo duration-[350ms]"
+            enter="ease-out-quint duration-[350ms]"
             enterFrom="translate-x-full"
             enterTo="translate-x-0"
             leave="ease-in duration-200"
             leaveFrom="translate-x-0"
             leaveTo="translate-x-full"
           >
-            <Content className="fixed right-0 top-0 flex h-full w-full flex-col items-stretch border-l border-neutral-800 bg-neutral-950 p-6 xs:w-96">
+            <Content className="fixed right-0 top-0 flex h-full w-full flex-col items-stretch rounded-l-2xl border-l border-neutral-800 bg-neutral-950 p-6 xs:w-96">
               <div className="mb-3 flex w-full items-center justify-between">
                 <header className="flex items-center gap-[8px]">
                   <Title className="text-xl font-bold">Shopping Cart</Title>
@@ -77,7 +77,7 @@ const Cart = () => {
               </Description>
               <ScrollArea.Root
                 scrollHideDelay={1000}
-                className="w-full flex-grow overflow-hidden rounded-md"
+                className="relative w-full flex-grow overflow-hidden rounded-md "
               >
                 <ScrollArea.Viewport className="relative h-full w-full snap-y snap-mandatory">
                   <ul className="flex flex-col gap-4">

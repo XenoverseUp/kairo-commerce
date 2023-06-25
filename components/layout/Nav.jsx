@@ -1,9 +1,8 @@
-import Image from "next/image"
 import Link from "next/link"
 import SearchBar from "@/components/molecules/SearchBar"
 import { StopIcon } from "@heroicons/react/24/solid"
 import Cart from "@/components/layout/Cart"
-import MobileMenu from "@/components/molecules/MobileMenu"
+import MobileMenu from "@/components/layout/MobileMenu"
 
 const Nav = () => (
   <nav className="flex h-16 items-center justify-between border-b border-gray-800 bg-black px-6">
@@ -21,7 +20,9 @@ const Nav = () => (
         <Link href="/products?category=acoustic">Acoustic</Link>
       </div>
     </header>
-    <SearchBar />
+    <div className="hidden sm:block">
+      <SearchBar />
+    </div>
     <Cart />
   </nav>
 )
