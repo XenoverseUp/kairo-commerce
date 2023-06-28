@@ -84,7 +84,7 @@ const Cart = () => {
                     {new Array(50).fill(0).map((item, index) => (
                       <li
                         key={index}
-                        className="flex h-12 snap-center items-center justify-center rounded-md bg-neutral-700"
+                        className="flex h-12 snap-start items-center justify-center rounded-md bg-neutral-700"
                       >
                         Item {index}
                       </li>

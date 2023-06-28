@@ -1,29 +1,28 @@
 import Link from "next/link"
+import { Fragment } from "react"
 
-const MenuCategories = () => (
-  <section className="flex flex-col gap-2 pt-3">
-    <Link href="" className="cursor-pointer">
-      Electric
-    </Link>
-    <Link href="" className="cursor-pointer">
-      Acoustic
-    </Link>
-    <Link href="" className="cursor-pointer">
-      Vintage
-    </Link>
-    <Link href="" className="cursor-pointer">
-      Bass
-    </Link>
-    <Link href="" className="cursor-pointer">
-      12-Strings
-    </Link>
-    <Link href="" className="cursor-pointer">
-      Accessories
-    </Link>
-    <Link href="" className="cursor-pointer">
-      Headphones
-    </Link>
-  </section>
-)
+const getCategories = async () =>
+  await (
+    await fetch(`${process.env.API_URL}/api/category`, { method: "GET" })
+  ).json()
+
+const MenuCategories = async () => {
+  const categories = await getCategories()
+
+  return (
+    <Fragment>
+      {categories.map((category) => (
+        <Link href={`/${category}`} className="cursor-pointer capitalize">
+          {category}
+        </Link>
+      ))}
+      {categories.map((category) => (
+        <Link href={`/${category}`} className="cursor-pointer capitalize">
+          {category}
+        </Link>
+      ))}
+    </Fragment>
+  )
+}
 
 export default MenuCategories

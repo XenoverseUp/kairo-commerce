@@ -1,4 +1,4 @@
-import ListProducts from "@/components/products/ListProducts"
+import { redirect } from "next/navigation"
 
 const getProducts = async () => {
   const res = await fetch(`${process.env.API_URL}/api/products/`, {
@@ -9,7 +9,5 @@ const getProducts = async () => {
 }
 
 export default async function Home() {
-  const productsData = await getProducts()
-
-  return //<ListProducts data={productsData} />
+  redirect("/all")
 }

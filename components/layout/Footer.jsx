@@ -1,5 +1,4 @@
 import { StopIcon } from "@heroicons/react/24/solid"
-import Image from "next/image"
 
 const Footer = () => (
   <footer className="h-60 w-full border-t border-gray-800 px-6">

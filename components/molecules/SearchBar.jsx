@@ -16,7 +16,7 @@ const SearchBar = ({ noShortcut }) => {
   return (
     <form
       action=""
-      className="max-w-96 flex h-10 w-full items-center gap-2 rounded-full border border-gray-800 px-3 transition-colors focus-within:border-gray-200"
+      className="max-w-96 flex h-10 w-full flex-shrink-0 items-center gap-2 rounded-full border border-gray-800 px-3 transition-colors focus-within:border-gray-200"
     >
       <MagnifyingGlassIcon className="h-5 w-5 text-white" />
       <input

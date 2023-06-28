@@ -23,7 +23,7 @@ import { HorizontalSeparator } from "@/components/molecules/Separator"
 import MenuContent from "@/components/mobile-menu/MenuContent"
 import MenuFooter from "../mobile-menu/MenuFooter"
 
-const MobileMenu = () => {
+const MobileMenu = ({ children: content }) => {
   const [isOpen, setIsOpen] = useState(false)
   useHotkeys("ctrl+c", () => setIsOpen((state) => !state), [setIsOpen])
 
@@ -78,7 +78,7 @@ const MobileMenu = () => {
                 <Description>Mobile menu of Kairo Store.</Description>
               </VisuallyHidden>
               <SearchBar noShortcut />
-              <MenuContent />
+              {content}
               <MenuFooter />
             </Content>
           </Transition.Child>
